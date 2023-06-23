@@ -7,9 +7,7 @@
 weather_options = ["sunny", "snowy", "freezing", "partly cloudy", "drizzly"]
 
 weather_options.each do |weather|
-  if weather.chars.last == "y"
   puts "The weather today is #{weather}."
-  end
 end
 
 # Challenge 2
